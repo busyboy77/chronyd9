@@ -3,7 +3,7 @@ class chronyd9 {
 
 	file {'/etc/chrony.conf':
 		source => 'puppet:///modules/files/chrony.conf',
-		notify => Service['chonryd'],
+		notify => Service['chronyd'],
 		require => Package['chrony'],
 	}
 
