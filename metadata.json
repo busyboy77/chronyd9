@@ -1,0 +1,37 @@
+{
+	"name": "chronyd9",
+	"version": "0.1.1",
+	"author": "NMR",
+	"summary": "Chrony Daemon V9",
+	"license": "Apache-2.0",
+	"source": "https://github.com/busboy77/chrony9.git",
+	"project_page": "https://github.com/busyboy77/chrony9",
+	"tags": ["ntp","Chronyd"],
+	"dependencies": [
+		{
+			"name": "puppetlabs/stdlib",
+			"version_requirement": ">= 4.17.0 "
+		}
+	],
+	"operatingsystem_support":[
+		{
+			"operatingsystem": "Ubuntu",
+			"operatingsystemrelease": [" >= 16.04"]
+		}
+	],
+	"operatingsystem_support":[
+		{
+			"operatingsystem": "RedHat",
+			"operatingsystem_release": [">= 6"]
+		}
+	],
+	"operatingsystem_support":[
+		{
+			"operatingsystem": "Debian",
+			"operatingsystem_release": [">= 7"]
+		}
+	]
+}
+		
+
+
