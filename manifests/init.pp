@@ -2,7 +2,7 @@ class chronyd9 {
 	ensure_packages(['chrony'])
 
 	file {'/etc/chrony.conf':
-		source => 'puppet:///modules/files/chrony.conf',
+		source => 'puppet:///modules/chronyd9/files/chrony.conf',
 		notify => Service['chronyd'],
 		require => Package['chrony'],
 	}
